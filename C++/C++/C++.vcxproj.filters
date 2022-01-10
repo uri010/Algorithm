@@ -51,7 +51,13 @@
     <ClCompile Include="13913_숨바꼭질4.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="소스.cpp">
+    <ClCompile Include="2839_설탕배달.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12018_Yonsei TOTO.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1931_회의실 배정.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
