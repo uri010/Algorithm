@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#include <algorithm>
 using namespace std;
 
 struct cmp {
@@ -30,5 +31,16 @@ int main() {
 		cin >> c;
 		bag.push_back(c);
 	}
+
+	sort(bag.begin(), bag.end());
+
+	long long int sum = 0;
+	while(!jewel.empty()) {
+		int iter = lower_bound(bag.begin(), bag.end(), jewel.top().first) - bag.begin();
+		if( iter != bag.size() && )
+	}
+
+	cout << sum;
+
 
 }

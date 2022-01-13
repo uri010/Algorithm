@@ -66,5 +66,8 @@
     <ClCompile Include="16288_Passport Control.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1202_보석 도둑.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
