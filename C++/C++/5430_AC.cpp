@@ -1,43 +1,58 @@
 #include <iostream>
-#include <stack>
+#include <deque>
 #include <vector>
 #include <string>
 using namespace std;
 
-void ArrayPrint(vector<int> &arr) {
+void ArrayPrint(deque<int> &arr) {
 	cout << "[";
-	for (int i = 0; i < arr.size()-1; i++) {
-		cout << arr[i] << ",";
+	if (arr.size() != 0) {
+		for (int i = 0; i < arr.size() - 1; i++) {
+			cout << arr[i] << ",";
+		}
+		cout << arr[arr.size() - 1];
 	}
-	cout << arr[arr.size() - 1] << "]" << "\n";
+	cout << "]" << "\n";
 }
 
-void ArrayPrintReverse(vector<int>& arr) {
+void ArrayPrintReverse(deque<int>& arr) {
 	cout << "[";
-	for (int i = arr.size()-1; i >0 ; i--) {
-		cout << arr[i] << ",";
+	if (arr.size() != 0) {
+		for (int i = arr.size() - 1; i > 0; i--) {
+			cout << arr[i] << ",";
+		}
+		cout << arr[0];
 	}
-	cout << arr[0] << "]" << "\n";
+	cout<< "]" << "\n";
 }
 
 int main() {
 	cin.tie(NULL);
 	ios::sync_with_stdio(false);
 
-	int t, n, x;
-	string p;
+	int t, n;
+	string p, x;
 
 	cin >> t;
 	while (t--) {
 		cin >> p;
 		cin >> n;
-		getchar();
-		getchar();
-		vector<int> arr;
-		for (int i = 0; i < n; i++) {
-			cin >> x;
-			arr.push_back(x);
-			getchar();
+		cin >> x;
+		deque<int> arr;
+		string tmp;
+		if (x.size() != 2) {
+			for (int i = 1; i < x.size(); i++) {
+				if (i == x.size() - 1) {
+					arr.push_back(stoi(tmp));
+				}
+				else if (x[i] != ',') {
+					tmp += x[i];
+				}
+				else {
+					arr.push_back(stoi(tmp));
+					tmp = "";
+				}
+			}
 		}
 		int cnt = 0;
 		for (int i = 0; i < p.size(); i++) {
@@ -50,20 +65,14 @@ int main() {
 					break;
 				}
 				else if (cnt % 2 == 0) {
-					arr.erase(arr.begin());
+					arr.pop_front();
 				}
 				else if (cnt % 2 == 1) {
-					if (arr.size() != 1) {
-						arr.erase(arr.end() - 1);
-					}
-					else if (arr.size() == 1) {
-						arr.erase(arr.begin());
-					}
-
+					arr.pop_back();
 				}
 			}
 		}
-		if (cnt == -1||arr.size() == 0 ) {
+		if (cnt == -1 ) {
 			cout << "error" << "\n";
 		}
 		else if (cnt % 2 == 0) {
