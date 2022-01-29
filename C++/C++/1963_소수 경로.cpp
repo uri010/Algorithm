@@ -1,12 +1,13 @@
 #include <iostream>
 #include <queue>
 #include <string>
+#include <cstring>
 using namespace std;
 
 bool prime[10000];
 bool visited[10000];
 
-void primeNumberSieve() {
+void Init() {
 	memset(prime, true, sizeof(prime));
 	for (int i = 2; i < 10000; i++) {
 		for (int j = 2; i * j < 10000; j++) {
@@ -56,7 +57,7 @@ int main() {
 	while (t--) {
 		int x, y;
 		cin >> x >> y;
-		primeNumberSieve();
+		Init();
 		BFS(x, y);
 	}
 
