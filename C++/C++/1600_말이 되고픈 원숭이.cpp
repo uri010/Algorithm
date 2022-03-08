@@ -37,15 +37,15 @@ void Solve() {
 			cout << cnt << "\n";
 			return;
 		}
-
+		//능력 사용 횟수가 주어진 능력 사용 횟수(k)보다 작다면 말 능력 사용!
 		if (ability < k) {
 			for (int i = 0; i < 8; i++) {
 				int to_x = x + hmv_x[i];
 				int to_y = y + hmv_y[i];
 
-				if (to_x >= 0 && to_y >= 0 && to_x < h && to_y < w) {
-					if (map[to_x][to_y] == 0 && visited[to_x][to_y][ability +1] == false) {
-						visited[to_x][to_y][ability+1] = true;
+				if (to_x >= 0 && to_y >= 0 && to_x < h && to_y < w) { //범위 체크
+					if (map[to_x][to_y] == 0 && visited[to_x][to_y][ability +1] == false) { //장애물이 없고 해당 좌표를 능력+1로 방문한 적이 없을 때
+						visited[to_x][to_y][ability+1] = true; 
 						q.push({ {to_x, to_y}, {cnt + 1, ability + 1} });
 
 					}
@@ -53,19 +53,20 @@ void Solve() {
 			}
 		}
 
+		//그냥 이동 4번
 		for (int i = 0; i < 4; i++) {
 			int to_x = x + mv_x[i];
 			int to_y = y + mv_y[i];
 
-			if (to_x >= 0 && to_y >= 0 && to_x < h && to_y < w) {
-				if (map[to_x][to_y] == 0 && visited[to_x][to_y][ability] == false) {
+			if (to_x >= 0 && to_y >= 0 && to_x < h && to_y < w) { //범위 체크
+				if (map[to_x][to_y] == 0 && visited[to_x][to_y][ability] == false) { //장애물이 없고 해당 좌표를 방문한 적이 없을 때
 					visited[to_x][to_y][ability] = true;
 					q.push({ {to_x, to_y}, {cnt + 1, ability} });
 				}
 			}
 		}
 	}
-	cout << -1 << "\n";
+	cout << -1 << "\n"; //도착 못하면 -1 출력
 }
 
 int main() {
