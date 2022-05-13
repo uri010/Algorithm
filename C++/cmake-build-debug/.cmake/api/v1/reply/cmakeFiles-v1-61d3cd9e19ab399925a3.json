@@ -150,8 +150,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/yulee/CLionProjects/untitled/cmake-build-debug",
-		"source" : "/Users/yulee/CLionProjects/untitled"
+		"build" : "/Users/yulee/CLionProjects/C++/cmake-build-debug",
+		"source" : "/Users/yulee/CLionProjects/C++"
 	},
 	"version" : 
 	{

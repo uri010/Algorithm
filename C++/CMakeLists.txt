@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled "11286_절댓값 힙.cpp")
+add_executable(untitled "1927_최소힙.cpp" 1927_최소힙.cpp)

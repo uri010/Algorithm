@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/yulee/CLionProjects/untitled -B /Users/yulee/CLionProjects/untitled/cmake-build-release
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/yulee/CLionProjects/C++ -B /Users/yulee/CLionProjects/C++/cmake-build-release
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/yulee/CLionProjects/untitled/cmake-build-release
+-- Build files have been written to: /Users/yulee/CLionProjects/C++/cmake-build-release
