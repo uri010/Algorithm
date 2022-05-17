@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "untitled",
+					"name" : "C++",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "untitled::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-untitled-Release-2fe0d735a266eb6e83ac.json",
-					"name" : "untitled",
+					"id" : "C++::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C++-Release-4d660465f1d1ad5975c7.json",
+					"name" : "C++",
 					"projectIndex" : 0
 				}
 			]

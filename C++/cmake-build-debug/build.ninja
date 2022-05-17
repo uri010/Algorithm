@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: untitled
+# Project: C++
 # Configurations: Debug
 # =============================================================================
 
@@ -41,35 +41,35 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/yulee/CLionProjects/C++/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target untitled
+# Object build statements for EXECUTABLE target C++
 
 
 #############################################
-# Order-only phony target for untitled
+# Order-only phony target for C++
 
-build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
+build cmake_object_order_depends_target_C++: phony || CMakeFiles/C++.dir
 
-build CMakeFiles/untitled.dir/1927_최소힙.cpp.o: CXX_COMPILER__untitled_Debug /Users/yulee/CLionProjects/C++/1927_최소힙.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles/untitled.dir/1927_최소힙.cpp.o.d
+build CMakeFiles/C++.dir/1269_대칭_차집합.cpp.o: CXX_COMPILER__C.2b.2b_Debug /Users/yulee/CLionProjects/C++/1269_대칭$ 차집합.cpp || cmake_object_order_depends_target_C++
+  DEP_FILE = CMakeFiles/C++.dir/1269_대칭_차집합.cpp.o.d
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles/untitled.dir
+  OBJECT_DIR = CMakeFiles/C++.dir
+  OBJECT_FILE_DIR = CMakeFiles/C++.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target untitled
+# Link build statements for EXECUTABLE target C++
 
 
 #############################################
-# Link the executable untitled
+# Link the executable C++
 
-build untitled: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/1927_최소힙.cpp.o
+build C++: CXX_EXECUTABLE_LINKER__C.2b.2b_Debug CMakeFiles/C++.dir/1269_대칭_차집합.cpp.o
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_DIR = CMakeFiles/C++.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = untitled
-  TARGET_PDB = untitled.dbg
+  TARGET_FILE = C++
+  TARGET_PDB = C++.dbg
 
 
 #############################################
@@ -105,7 +105,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/yulee/CLionProjects/C++/cmake-build-debug
 
-build all: phony untitled
+build all: phony C++
 
 # =============================================================================
 # Built-in targets

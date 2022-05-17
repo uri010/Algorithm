@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.22)
-project(untitled)
+project(C++)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled "1927_최소힙.cpp" 1927_최소힙.cpp)
+add_executable(C++ "1269_대칭 차집합.cpp")

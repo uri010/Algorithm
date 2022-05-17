@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "untitled"
+			"path" : "C++"
 		}
 	],
 	"backtrace" : 1,
@@ -52,12 +52,11 @@
 			},
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
-	"id" : "untitled::@6890427a1f51a3e7e1df",
+	"id" : "C++::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -73,8 +72,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "untitled",
-	"nameOnDisk" : "untitled",
+	"name" : "C++",
+	"nameOnDisk" : "C++",
 	"paths" : 
 	{
 		"build" : ".",
@@ -86,8 +85,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
@@ -96,13 +94,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "11286_\uc808\ub313\uac12 \ud799.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "1927_\ucd5c\uc18c\ud799.cpp",
+			"path" : "1269_\ub300\uce6d \ucc28\uc9d1\ud569.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

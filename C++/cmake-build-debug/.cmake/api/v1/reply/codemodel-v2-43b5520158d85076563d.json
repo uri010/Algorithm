@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "untitled",
+					"name" : "C++",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "untitled::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-untitled-Debug-02a8229846e1e4019edf.json",
-					"name" : "untitled",
+					"id" : "C++::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-C++-Debug-a77e2bd27c4154e1407e.json",
+					"name" : "C++",
 					"projectIndex" : 0
 				}
 			]
