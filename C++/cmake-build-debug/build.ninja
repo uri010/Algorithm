@@ -49,8 +49,8 @@ cmake_ninja_workdir = /Users/yulee/CLionProjects/C++/cmake-build-debug/
 
 build cmake_object_order_depends_target_C++: phony || CMakeFiles/C++.dir
 
-build CMakeFiles/C++.dir/1269_대칭_차집합.cpp.o: CXX_COMPILER__C.2b.2b_Debug /Users/yulee/CLionProjects/C++/1269_대칭$ 차집합.cpp || cmake_object_order_depends_target_C++
-  DEP_FILE = CMakeFiles/C++.dir/1269_대칭_차집합.cpp.o.d
+build CMakeFiles/C++.dir/1012_유기농_배추.cpp.o: CXX_COMPILER__C.2b.2b_Debug /Users/yulee/CLionProjects/C++/1012_유기농$ 배추.cpp || cmake_object_order_depends_target_C++
+  DEP_FILE = CMakeFiles/C++.dir/1012_유기농_배추.cpp.o.d
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/C++.dir
   OBJECT_FILE_DIR = CMakeFiles/C++.dir
@@ -63,7 +63,7 @@ build CMakeFiles/C++.dir/1269_대칭_차집합.cpp.o: CXX_COMPILER__C.2b.2b_Debu
 #############################################
 # Link the executable C++
 
-build C++: CXX_EXECUTABLE_LINKER__C.2b.2b_Debug CMakeFiles/C++.dir/1269_대칭_차집합.cpp.o
+build C++: CXX_EXECUTABLE_LINKER__C.2b.2b_Debug CMakeFiles/C++.dir/1012_유기농_배추.cpp.o
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/C++.dir
   POST_BUILD = :

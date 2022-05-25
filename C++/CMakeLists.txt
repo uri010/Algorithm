@@ -3,4 +3,4 @@ project(C++)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(C++ "1269_대칭 차집합.cpp")
+add_executable(C++ "1012_유기농 배추.cpp")
