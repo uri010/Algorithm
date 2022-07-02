@@ -3,4 +3,4 @@ project(C++)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(C++ 1918_후위표기식.cpp)
+add_executable(C++ "25214_크림 파스타.cpp")
