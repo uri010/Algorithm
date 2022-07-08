@@ -2,7 +2,7 @@
 #include <algorithm>
 using namespace std;
 
-int dp[1000001] = {};
+int dp[1000001];
 
 int main() {
 	cin.tie(NULL);
