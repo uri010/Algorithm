@@ -25,8 +25,7 @@ void dfs(int idx, int cnt, int result) {
             else if (i == 1) dfs(i, cnt + 1, result - num[cnt]);
             else if (i == 2) dfs(i, cnt + 1, result * num[cnt]);
             else if (i == 3) {
-                if (result < 0) dfs(i, cnt + 1, -(-result / num[cnt]));
-                else dfs(i, cnt + 1, result / num[cnt]);
+                dfs(i, cnt + 1, result / num[cnt]);
             }
         }
         op[idx]++;
@@ -40,7 +39,7 @@ int main() {
     cin >> n;
     for (int i = 0; i < n; i++) {
         cin >> num[i];
-    }
+    };
     int pl, mi, mu, di;
     cin >> pl >> mi >> mu >> di;
     for (int i = 0; i < 4; i++) {
@@ -56,10 +55,7 @@ int main() {
             } else if (i == 2) {
                 dfs(2, 2, num[0] * num[1]);
             } else if (i == 3) {
-                if (num[0] < 0)
-                    dfs(3, 2, -(-num[0] / num[1]));
-                else
-                    dfs(3, 2, num[0] / num[1]);
+                dfs(3, 2, num[0] / num[1]);
             }
         }
     }
