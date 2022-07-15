@@ -19,13 +19,16 @@ int main() {
     cin >> n >> m >> k >> x;
     edge.resize(n + 1);
     int a, b;
+
     for (int i = 0; i < m; i++) {
         cin >> a >> b;
         edge[a].push_back(b);
     }
+
     for (int i = 1; i <= n; i++) {
         dist[i] = INF;
     }
+    dist[x] = 0; //해당 코드 누락으로 86%에서 틀림
 
     priority_queue<pair<int, int>> pq;
     pq.push({0, x});
@@ -34,23 +37,23 @@ int main() {
         int cost = -pq.top().first;
         int now = pq.top().second;
         pq.pop();
-        if (dist[now] <= cost) continue;
+        if (dist[now] < cost) continue;
 
         for (auto u: edge[now]) {
-            int next_cost = 1;
+            int next_cost = cost + 1;
 
-            if (dist[u] <= cost + next_cost) continue;
-            dist[u] = cost + next_cost;
-            pq.push({-(cost + next_cost), u});
+            if (dist[u] <= next_cost) continue;
+            dist[u] = next_cost;
+            pq.push({-(next_cost), u});
         }
     }
-    int flag= 0;
-    for(int i=1; i <=n; i++){
-        if( dist[i] == k ) {
-            cout << i<< "\n";
+    int flag = 0;
+    for (int i = 1; i <= n; i++) {
+        if (dist[i] == k) {
+            cout << i << "\n";
             flag = 1;
         }
     }
-    if( flag == 0 ) cout << -1;
+    if (flag == 0) cout << -1;
 
 }
