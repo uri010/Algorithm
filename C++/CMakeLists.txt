@@ -3,4 +3,4 @@ project(C++)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(C++ 2234_성곽.cpp)
+add_executable(C++ "18352_특정 거리의 도시 찾기.cpp")
