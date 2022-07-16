@@ -49,8 +49,8 @@ cmake_ninja_workdir = /Users/yulee/CLionProjects/C++/cmake-build-release/
 
 build cmake_object_order_depends_target_C++: phony || CMakeFiles/C++.dir
 
-build CMakeFiles/C++.dir/18352_특정_거리의_도시_찾기.cpp.o: CXX_COMPILER__C.2b.2b_Release /Users/yulee/CLionProjects/C++/18352_특정$ 거리의$ 도시$ 찾기.cpp || cmake_object_order_depends_target_C++
-  DEP_FILE = CMakeFiles/C++.dir/18352_특정_거리의_도시_찾기.cpp.o.d
+build CMakeFiles/C++.dir/14716_현수막.cpp.o: CXX_COMPILER__C.2b.2b_Release /Users/yulee/CLionProjects/C++/14716_현수막.cpp || cmake_object_order_depends_target_C++
+  DEP_FILE = CMakeFiles/C++.dir/14716_현수막.cpp.o.d
   FLAGS = -O3 -DNDEBUG -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/C++.dir
   OBJECT_FILE_DIR = CMakeFiles/C++.dir
@@ -63,7 +63,7 @@ build CMakeFiles/C++.dir/18352_특정_거리의_도시_찾기.cpp.o: CXX_COMPILE
 #############################################
 # Link the executable C++
 
-build C++: CXX_EXECUTABLE_LINKER__C.2b.2b_Release CMakeFiles/C++.dir/18352_특정_거리의_도시_찾기.cpp.o
+build C++: CXX_EXECUTABLE_LINKER__C.2b.2b_Release CMakeFiles/C++.dir/14716_현수막.cpp.o
   FLAGS = -O3 -DNDEBUG -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/C++.dir
   POST_BUILD = :
