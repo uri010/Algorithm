@@ -3,4 +3,4 @@ project(C++)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(C++ 1939_중량제한.cpp)
+add_executable(C++ "11057_오르막 수.cpp")
