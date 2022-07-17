@@ -1,35 +1,27 @@
 #include <iostream>
 #include <vector>
+#include <cstring>
 
 using namespace std;
-#define INF 2100000000
 
-int n, m, a, b, c;
 vector<vector<pair<int, int>>> v;
-bool visited[100003];
-int result;
+bool visited[10002];
+int n, m, a, b, c;
 
-void dfs(int now, int cost, int min_cost) {
-    if (now == b) {
-        if (min_cost > result) {
-            result = min_cost;
-        }
-        return;
-    }
+bool dfs(int now, int limit) {
+    visited[now] = true;
 
-    for (auto v: v[now]) {
-        int next = v.first;
-        int next_cost = v.second;
-        if (!visited[next]) {
-            visited[next] = true;
-            if (min_cost > next_cost) {
-                dfs(next, next_cost, next_cost);
-            } else {
-                dfs(next, next_cost, min_cost);
-            }
-            visited[next] = false;
+    if (now == b) return true;
+
+    for (auto x: v[now]) {
+        int next = x.first;
+        int cost = x.second;
+        if (!visited[next] && limit <= cost) {
+            if (!dfs(next, limit))continue;
+            else return true;
         }
     }
+    return false;
 }
 
 int main() {
@@ -45,7 +37,19 @@ int main() {
         v[b].push_back({a, c});
     }
     cin >> a >> b;
-    visited[a] = true;
-    dfs(a, 0, INF);
-    cout << result;
+
+    int left = 0;
+    int right = 1000000000;
+    int mid, ans;
+    while (left <= right) {
+        memset(visited, false, sizeof(visited));
+        mid = (left + right) / 2;
+        if (dfs(a, mid)) {
+            ans = mid;
+            left = mid + 1;
+        } else {
+            right = mid - 1;
+        }
+    }
+    cout << ans;
 }
