@@ -49,8 +49,8 @@ cmake_ninja_workdir = /Users/yulee/CLionProjects/C++/cmake-build-debug/
 
 build cmake_object_order_depends_target_C++: phony || CMakeFiles/C++.dir
 
-build CMakeFiles/C++.dir/11054_가장_긴_바이토닉_부분_수열.cpp.o: CXX_COMPILER__C.2b.2b_Debug /Users/yulee/CLionProjects/C++/11054_가장$ 긴$ 바이토닉$ 부분$ 수열.cpp || cmake_object_order_depends_target_C++
-  DEP_FILE = CMakeFiles/C++.dir/11054_가장_긴_바이토닉_부분_수열.cpp.o.d
+build CMakeFiles/C++.dir/1260_DFS와_BFS(2).cpp.o: CXX_COMPILER__C.2b.2b_Debug /Users/yulee/CLionProjects/C++/1260_DFS와$ BFS(2).cpp || cmake_object_order_depends_target_C++
+  DEP_FILE = "CMakeFiles/C++.dir/1260_DFS와_BFS(2).cpp.o.d"
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/C++.dir
   OBJECT_FILE_DIR = CMakeFiles/C++.dir
@@ -63,7 +63,7 @@ build CMakeFiles/C++.dir/11054_가장_긴_바이토닉_부분_수열.cpp.o: CXX_
 #############################################
 # Link the executable C++
 
-build C++: CXX_EXECUTABLE_LINKER__C.2b.2b_Debug CMakeFiles/C++.dir/11054_가장_긴_바이토닉_부분_수열.cpp.o
+build C++: CXX_EXECUTABLE_LINKER__C.2b.2b_Debug CMakeFiles/C++.dir/1260_DFS와_BFS(2).cpp.o
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/C++.dir
   POST_BUILD = :
