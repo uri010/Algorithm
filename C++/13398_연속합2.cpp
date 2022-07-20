@@ -34,7 +34,7 @@ int main() {
         maxInt = max(maxInt, dp2[i]);
     }
     maxInt = max(maxInt, dp2[n-1]);
-    maxInt = max(maxInt, dp2[1]);
+    maxInt = max(maxInt, dp2[0]);
     for (int i = 1; i < n; i++) {
         long long tmp = dp[i - 1] + dp2[i + 1];
         if (tmp > maxInt) maxInt = tmp;
