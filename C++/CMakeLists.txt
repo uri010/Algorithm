@@ -3,4 +3,4 @@ project(C++)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(C++   11404_플로이드.cpp)
+add_executable(C++ "tmp/16964_DFS 스폐셜 저지.cpp")
