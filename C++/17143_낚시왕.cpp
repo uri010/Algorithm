@@ -142,12 +142,9 @@ int main() {
         for (int i = 1; i <= R; i++) {
             for (int j = 1; j <= C; j++) {
                 map[i][j] = tmp[i][j];
-                //cout << map[i][j].second.second << " ";
             }
-            //cout << endl;
         }
         memset(tmp, 0, sizeof(tmp));
-        //cout << endl;
     }
     cout << cnt;
 }

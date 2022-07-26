@@ -55,9 +55,6 @@ int main() {
         }
         dist2[i][0] = dist[x];
     }
-
-
-
     pq.push({0, x});
 
     while (!pq.empty()) {
