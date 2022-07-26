@@ -18,15 +18,15 @@ void dfs(int x) {
     cnt++;
 
     while (true) {
-        int flag =0;
+        int flag = 0;
         for (int next: edge[x]) {
-            if (next == input[cnt] && !visited[next]){
+            if (next == input[cnt] && !visited[next]) {
                 dfs(next);
                 flag = 1;
                 break;
             }
         }
-        if( flag) continue;
+        if (flag) continue;
         else break;
     }
 }
