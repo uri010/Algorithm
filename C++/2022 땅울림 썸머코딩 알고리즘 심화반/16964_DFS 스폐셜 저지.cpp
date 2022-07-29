@@ -3,6 +3,7 @@
 //
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -11,24 +12,22 @@ int a, b;
 vector<vector<int>> edge;
 vector<int> input;
 bool visited[100002];
-int cnt;
+int order[100002];
+vector<int> result;
 
 void dfs(int x) {
     visited[x] = true;
-    cnt++;
+    result.push_back(x);
 
-    while (true) {
-        int flag = 0;
-        for (int next: edge[x]) {
-            if (next == input[cnt] && !visited[next]) {
-                dfs(next);
-                flag = 1;
-                break;
-            }
+    for (int next: edge[x]) {
+        if (!visited[next]) {
+            dfs(next);
         }
-        if (flag) continue;
-        else break;
     }
+}
+
+bool compare(int &a, int &b) {
+    return order[a] < order[b];
 }
 
 int main() {
@@ -44,13 +43,18 @@ int main() {
         edge[b].push_back(a);
     }
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i <n; i++) {
         cin >> a;
         input.push_back(a);
+        order[a] = i;
+    }
+
+    for (int i = 1; i <= n; i++) {
+        sort(edge[i].begin(), edge[i].end(), compare);
     }
 
     dfs(1);
+    if (result == input) cout << 1;
+    else cout << 0;
 
-    if (cnt < n) cout << 0;
-    else cout << 1;
 }
