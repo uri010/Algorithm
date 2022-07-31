@@ -3,13 +3,17 @@
 //
 #include <iostream>
 #include <vector>
+#include <queue>
+
 using namespace std;
 
 
 int n, m, x, y;
+int ans, cnt = 1;
 int cost[1002][1002];
 int par[1002];
-vector<pair<int,int>> v;
+vector<pair<int, int>> result;
+priority_queue<pair<int, pair<int, int>>> pq;
 
 int Find(int a) {
     if (a == par[a])
@@ -22,44 +26,50 @@ int main() {
     cin.tie(nullptr);
     cout.tie(nullptr);
     ios::sync_with_stdio(false);
+
     cin >> n >> m;
 
-    for (int i = 1; i <= n; i++) {
+    for (int i = 2; i <= n; i++) {
         par[i] = i;
     }
     for (int i = 0; i < m; i++) {
         cin >> x >> y;
-        par[x] = 1;
-        par[y] = 1;
+        x = Find(x);
+        y = Find(y);
+
+        if (x != y) {
+            par[y] = x;
+            cnt++;
+        }
     }
+
     for (int i = 1; i <= n; i++) {
         for (int j = 1; j <= n; j++) {
             cin >> cost[i][j];
+            if (i == 1 || j == 1 || i == j) continue;
+            pq.push({-cost[i][j], {i, j}});
         }
-    }
-    x =0;
-    for (int i = 1; i <= n; i++) {
-        int min_cost = 100000000;
-        int p1, p2;
-        if (par[i] == 1)continue;
-        else {
-            for (int j = 2; j <= n; j++) {
-                if( i==j ) continue;
-                if( min_cost > cost[i][j]) {
-                    min_cost = cost[i][j];
-                    p1 = i;
-                    p2 =j;
-                }
-            }
-            par[i] = 1;
-            x += min_cost;
-            v.push_back({p1, p2});
-        }
-    }
-    cout << x << " " << v.size() << "\n";
-    for(int i=0; i < v.size(); i++){
-        cout << v[i].first << " " << v[i].second << "\n";
     }
 
+    while (!pq.empty()) {
+        int now_cost = -pq.top().first;
+        int i = pq.top().second.first;
+        int j = pq.top().second.second;
+        pq.pop();
+        if (cnt == n) break;
+
+        int ni = Find(i);
+        int nj = Find(j);
+        if (ni != nj) {
+            ans += now_cost;
+            result.push_back({i, j});
+            par[nj] = ni;
+            cnt++;
+        }
+    }
+    cout << ans << " " << result.size() << "\n";
+    for (int i = 0; i < result.size(); i++) {
+        cout << result[i].first << " " << result[i].second << "\n";
+    }
 
 }
