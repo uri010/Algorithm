@@ -12,9 +12,9 @@ using namespace std;
 int V, E, u, v, w;
 int start;
 int dist[10002];
-vector<int> yogurt;
+vector<int> yogurt(10002);
 vector<vector<pair<int, int>>> edge;
-vector<int> route;
+vector<int> route(10);
 priority_queue<pair<int, int>> pq;
 
 void solve(int s) {
@@ -23,19 +23,17 @@ void solve(int s) {
     yogurt[s] = 0;
 
     while (!pq.empty()) {
-        int cost = pq.top().first;
-        int here = pq.top().second;
+        int cost = -pq.top().first;
+        int now = pq.top().second;
+        q.pop();
 
-        pq.pop();
-        if (yogurt[here] < cost) continue;
-        for (int i = 0; i < edge[here].size(); ++i) {
-            int next = edge[here][i].second;
-            int nextcost = edge[here][i].first;
-
-            if (yogurt[next] > yogurt[here] + nextcost) {
-                yogurt[next] = yogurt[here] + nextcost;
-                pq.push(make_pair(yogurt[next], next));
-            }
+        if (yogurt[now] < cost) continue;
+        for (auto x : edge[now]) {
+            int next = x.first;
+            int next_cost = x.second+ cost;
+            if( yogurt[next] <= next_cost) continue;
+            yogurt[next] = next_cost;
+            q.push({-next_cost, next});
         }
     }
 }
@@ -49,7 +47,6 @@ int main() {
     edge.resize(V + 2);
     for (int i = 1; i <= V; i++) {
         dist[i] = INF;
-        yogurt[i] = INF;
     }
     for (int i = 0; i < E; i++) {
         cin >> u >> v >> w;
@@ -58,8 +55,7 @@ int main() {
     }
 
     for (int i = 0; i < 10; i++) {
-        cin >> u;
-        route.push_back(u);
+        cin >> route[i];
     }
 
     cin >> start;
@@ -80,25 +76,26 @@ int main() {
         }
     }
 
-    int ans = -1;
+    int ans = INF;
     if (start == route[0]) {
         ans = start;
     }
     int sum = 0;
-    for (int i = 1; i < 10; i++) {
+    for (int i = 0; i < 9; i++) {
         fill(yogurt.begin(), yogurt.end(), INF);
         solve(route[i]);
-        while (yogurt[route[i]] >= INF) {
+        while (yogurt[route[i+1]] == INF) {
             i++;
-            if (i > 9)
+            if (i >= 9)
                 break;
         }
-        if (i > 9)
+        if (i >= 9)
             break;
-        if (yogurt[route[i]] < INF && route[i] < ans && sum + yogurt[route[i]] >= dist[route[i]])
-            ans = route[i];
-        if (yogurt[route[i]] < INF)
-            sum += yogurt[route[i]];
+        if (yogurt[route[i+1]] < INF && sum + yogurt[route[i+1]] >= dist[route[i+1]])
+            ans =  min(ans,route[i+1]);
+        if (yogurt[route[i+1]] < INF)
+            sum += yogurt[route[i+1]];
     }
+    if( ans==INF) ans = -1;
     cout << ans;
 }
