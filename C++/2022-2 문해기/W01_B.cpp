@@ -52,6 +52,7 @@ int main() {
             }
         }
         if (t_cnt == 0) ans = max(ans, 2 * jump);
+
         cout << ans << "\n";
     }
     return 0;
