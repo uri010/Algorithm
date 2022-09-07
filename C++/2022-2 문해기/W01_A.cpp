@@ -43,9 +43,7 @@ int main() {
             cin >> x;
             drake.push_back(x);
         }
-
-        sort(inha.begin(), inha.end());
-        sort(drake.begin(), drake.end());
+        //sort 필요 없을 듯
 
         int inhaGcd = inha[0];
         for (int i = 1; i < n; i++) {
