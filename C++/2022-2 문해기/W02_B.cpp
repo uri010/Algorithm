@@ -1,40 +1,38 @@
 #include <iostream>
 #include <set>
+
 using namespace std;
 
 int t, m, n, x;
 string s;
 multiset<int> ms;
 
-int main ()
-{
+int main() {
     cin.tie(nullptr);
     cout.tie(nullptr);
     ios::sync_with_stdio(false);
 
     cin >> t;
-    while( t--) {
+    while (t--) {
         cin >> m >> n;
         ms.clear();
-        for(int i=0; i < m; i++){
+        for (int i = 0; i < m; i++) {
             cin >> x;
             ms.insert(x);
         }
-        for(int i=0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             cin >> s;
-            if( s== "Delete"){
+            if (s == "Delete") {
                 cin >> s;
-                if( s== "max") {
+                if (s == "max") {
                     auto iter = ms.end();
                     iter--;
                     ms.erase(iter);
-                }
-                else if( s== "min"){
+                } else if (s == "min") {
                     auto iter = ms.begin();
                     ms.erase(iter);
                 }
-            }
-            else if( s== "Add"){
+            } else if (s == "Add") {
                 cin >> x;
                 ms.insert(x);
             }
