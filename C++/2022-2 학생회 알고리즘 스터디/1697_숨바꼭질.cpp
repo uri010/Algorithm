@@ -17,6 +17,7 @@ void BFS() {
         int cnt = q.front().first;
         int i = q.front().second;
         q.pop();
+
         if (i == k) {
             ans = cnt;
             return;
