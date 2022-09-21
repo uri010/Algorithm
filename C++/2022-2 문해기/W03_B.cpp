@@ -5,26 +5,26 @@ using namespace std;
 
 int t;
 ll m;
-int ans;
+int day;
 
 void Solve() {
     ll rest = m % 10;
 
     if (rest > 5) {
-        m += (10 - rest);
-        ans += (10 - rest);
+        m += 10 - rest;
+        day += 10 - rest;
     } else if (rest == 5) {
         ll next_rest = m / 10 % 10;
         if (next_rest >= 5) {
             m += rest;
-            ans += rest;
-        }else {
-            m -= ( 10 - rest);
-            ans+= (10 - rest);
+            day += rest;
+        } else {
+            m -= rest;
+            day += rest;
         }
     } else {
         m -= rest;
-        ans += rest;
+        day += rest;
     }
     m /= 10;
 }
@@ -37,12 +37,12 @@ int main() {
     cin >> t;
     while (t--) {
         cin >> m;
-        ans = 0;
+        day = 0;
 
-        for (int i = 0; i <12; i++){
+        for (int i = 0; i < 11; i++) {
             Solve();
-            if( m== 0 ) {
-                cout << ans << "\n";
+            if (m == 0) {
+                cout << day << "\n";
                 break;
             }
         }
