@@ -16,15 +16,6 @@ int diag_i[4] = {-1, -1, 1, 1};
 int diag_j[4] = {-1, 1, -1, 1};
 queue<pair<int, int>> cloud;
 
-void Print() {
-    for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= n; j++) {
-            cout << map[i][j] << " ";
-        }
-        cout << "\n";
-    }
-}
-
 int main() {
     cin.tie(nullptr);
     cout.tie(nullptr);
