@@ -3,6 +3,8 @@
 //
 #include <iostream>
 #include <vector>
+#include <algorithm>
+#include <cmath>
 
 using namespace std;
 
@@ -15,9 +17,9 @@ int gcd(int a, int b) {
     else return gcd(b, a % b);
 }
 
-bool check(vector<int> &kingdom, int a) {
-    for (int i = 0; i < kingdom.size(); i++) {
-        if (kingdom[i] % a == 0) return false;
+bool check(vector<int> &kingdom, int a){
+    for(int i=0; i <kingdom.size(); i++){
+        if( kingdom[i] % a == 0 ) return false;
     }
     return true;
 }
@@ -45,19 +47,25 @@ int main() {
 
         int inhaGcd = inha[0];
         for (int i = 1; i < n; i++) {
-            inhaGcd = gcd(inhaGcd, inha[i]);
+            if (inhaGcd > inha[i])
+                inhaGcd = gcd(inhaGcd, inha[i]);
+            else
+                inhaGcd = gcd(inha[i], inhaGcd);
         }
         int drakeGcd = drake[0];
-        for (int i = 1; i < m; i++) {
-            drakeGcd = gcd(drake[i], drakeGcd);
+        for(int i=1;i <m; i++){
+            if( drakeGcd > drake[i])
+                drakeGcd = gcd(drakeGcd, drake[i]);
+            else
+                drakeGcd = gcd(drake[i], drakeGcd);
         }
 
-        if (check(inha, drakeGcd))
+        if( check(inha, drakeGcd))
             cout << drakeGcd << " ";
         else
-            cout << -1 << " ";
+            cout << -1 << " " ;
 
-        if (check(drake, inhaGcd))
+        if( check(drake, inhaGcd))
             cout << inhaGcd << "\n";
         else
             cout << -1 << "\n";
