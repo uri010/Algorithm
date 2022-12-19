@@ -39,7 +39,7 @@ int main() {
 				k -= tmp;
 				ans += i * tmp;
 			}
-			else if (tmp > k) {
+			else {
 				ans += i * k;
 				break;
 			}

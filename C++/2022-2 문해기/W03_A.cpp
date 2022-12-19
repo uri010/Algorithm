@@ -4,7 +4,7 @@
 using namespace std;
 
 int t, n, d, x;
-int calorie[5002];
+int calorie[100002];
 int weight[202];
 int ans;
 
