@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/yulee/CLionProjects/C++/cmake-build-debug/
+cmake_ninja_workdir = /Users/yulee/BOJ/C++/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target C++
 
@@ -49,11 +49,11 @@ cmake_ninja_workdir = /Users/yulee/CLionProjects/C++/cmake-build-debug/
 
 build cmake_object_order_depends_target_C++: phony || CMakeFiles/C++.dir
 
-build CMakeFiles/C++.dir/2022-2_문해기/W01_B.cpp.o: CXX_COMPILER__C.2b.2b_Debug /Users/yulee/CLionProjects/C++/2022-2$ 문해기/W01_B.cpp || cmake_object_order_depends_target_C++
-  DEP_FILE = CMakeFiles/C++.dir/2022-2_문해기/W01_B.cpp.o.d
-  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+build CMakeFiles/C++.dir/백준_문제_풀이/7662_이중_우선순위_큐.cpp.o: CXX_COMPILER__C.2b.2b_Debug /Users/yulee/BOJ/C++/백준$ 문제$ 풀이/7662_이중$ 우선순위$ 큐.cpp || cmake_object_order_depends_target_C++
+  DEP_FILE = CMakeFiles/C++.dir/백준_문제_풀이/7662_이중_우선순위_큐.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/C++.dir
-  OBJECT_FILE_DIR = CMakeFiles/C++.dir/2022-2_문해기
+  OBJECT_FILE_DIR = CMakeFiles/C++.dir/백준_문제_풀이
 
 
 # =============================================================================
@@ -63,8 +63,8 @@ build CMakeFiles/C++.dir/2022-2_문해기/W01_B.cpp.o: CXX_COMPILER__C.2b.2b_Deb
 #############################################
 # Link the executable C++
 
-build C++: CXX_EXECUTABLE_LINKER__C.2b.2b_Debug CMakeFiles/C++.dir/2022-2_문해기/W01_B.cpp.o
-  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+build C++: CXX_EXECUTABLE_LINKER__C.2b.2b_Debug CMakeFiles/C++.dir/백준_문제_풀이/7662_이중_우선순위_큐.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/C++.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -76,7 +76,7 @@ build C++: CXX_EXECUTABLE_LINKER__C.2b.2b_Debug CMakeFiles/C++.dir/2022-2_문해
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/yulee/CLionProjects/C++/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/yulee/BOJ/C++/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -87,7 +87,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/yulee/CLionProjects/C++/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yulee/CLionProjects/C++ -B/Users/yulee/CLionProjects/C++/cmake-build-debug
+  COMMAND = cd /Users/yulee/BOJ/C++/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yulee/BOJ/C++ -B/Users/yulee/BOJ/C++/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -103,7 +103,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/yulee/CLionProjects/C++/cmake-build-debug
+# Folder: /Users/yulee/BOJ/C++/cmake-build-debug
 
 build all: phony C++
 

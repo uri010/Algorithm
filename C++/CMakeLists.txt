@@ -3,4 +3,4 @@ project(C++)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(C++ "2022-2 문해기/W01_B.cpp")
+add_executable(C++ "백준 문제 풀이/7662_이중 우선순위 큐.cpp")

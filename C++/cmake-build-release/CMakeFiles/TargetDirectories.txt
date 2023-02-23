@@ -1,3 +1,3 @@
-/Users/yulee/CLionProjects/C++/cmake-build-release/CMakeFiles/C++.dir
-/Users/yulee/CLionProjects/C++/cmake-build-release/CMakeFiles/edit_cache.dir
-/Users/yulee/CLionProjects/C++/cmake-build-release/CMakeFiles/rebuild_cache.dir
+/Users/yulee/BOJ/C++/cmake-build-release/CMakeFiles/C++.dir
+/Users/yulee/BOJ/C++/cmake-build-release/CMakeFiles/edit_cache.dir
+/Users/yulee/BOJ/C++/cmake-build-release/CMakeFiles/rebuild_cache.dir
