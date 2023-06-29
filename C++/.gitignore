@@ -1,0 +1,9 @@
+/cmake-build-release/
+/cmake-build-debug/
+/Debug/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+CMakeLists.txt
+.vs
