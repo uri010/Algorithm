@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Project" targetName="untitled" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" ENABLED="true" CONFIG_NAME="Release" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0f37a513-1ef6-4d28-8e70-3694229271d4" name="Changes" comment="6087 - 레이저 통신" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file:///Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/allocator.h" root0="SKIP_INSPECTION" />
+    <setting file="file:///Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__tree" root0="SKIP_INSPECTION" />
+    <setting file="file:///Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/deque" root0="SKIP_INSPECTION" />
+    <setting file="file:///Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/vector" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/1043_거짓말.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/11404_플로이드.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/1149_RGB거리.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/1197_최소 스패닝 트리.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/1647_도시 분할 계획.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/16964_DFS 스폐셜 저지.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CMakeLists.txt" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-Debug-C++" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28zxCShqo1mlMgS8VPeNLmykOya" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "cmake.loaded.for.project": "true",
+    "last_opened_file_path": "/Users/yulee/BOJ/C++/백준 문제 풀이",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "structure.view.defaults.are.configured": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/백준 문제 풀이" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/백준 문제 풀이" />
+      <recent name="$PROJECT_DIR$/2023-1 CSE4204" />
+      <recent name="$PROJECT_DIR$/2022-2 문해기" />
+      <recent name="$PROJECT_DIR$/2022-2 객체2 스터디" />
+      <recent name="$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.C++">
+    <configuration name="C++ (1)" type="CMakeRunConfiguration" factoryName="Application" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="C++" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="C++">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C++" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="C++" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.C++" />
+      <item itemvalue="CMake Application.C++ (1)" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f37a513-1ef6-4d28-8e70-3694229271d4" name="Changes" comment="" />
+      <created>1652233089190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652233089190</updated>
+      <workItem from="1652233095155" duration="2380000" />
+      <workItem from="1652235692438" duration="747000" />
+      <workItem from="1652452826634" duration="1393000" />
+      <workItem from="1652456638390" duration="143000" />
+      <workItem from="1652666756660" duration="2133000" />
+      <workItem from="1652782936720" duration="2050000" />
+      <workItem from="1652941082291" duration="4646000" />
+      <workItem from="1653032496901" duration="332000" />
+      <workItem from="1653266373149" duration="1722000" />
+      <workItem from="1653437351117" duration="2522000" />
+      <workItem from="1653550515297" duration="1481000" />
+      <workItem from="1655803994378" duration="2285000" />
+      <workItem from="1655859785867" duration="1384000" />
+      <workItem from="1656293045659" duration="2187000" />
+      <workItem from="1656301892683" duration="1502000" />
+      <workItem from="1656377175506" duration="4855000" />
+      <workItem from="1656497886037" duration="4249000" />
+      <workItem from="1656568100156" duration="3055000" />
+      <workItem from="1656839674802" duration="8485000" />
+      <workItem from="1656899637661" duration="7123000" />
+      <workItem from="1657072032729" duration="135000" />
+      <workItem from="1657072190086" duration="13955000" />
+      <workItem from="1657241643473" duration="1930000" />
+      <workItem from="1657359275481" duration="2284000" />
+      <workItem from="1657435243586" duration="5762000" />
+      <workItem from="1657441198662" duration="16000" />
+      <workItem from="1657441335984" duration="28214000" />
+      <workItem from="1657518497190" duration="9105000" />
+      <workItem from="1657602526604" duration="40123000" />
+      <workItem from="1657804955245" duration="28923000" />
+      <workItem from="1657969826457" duration="9074000" />
+      <workItem from="1658046690260" duration="35857000" />
+      <workItem from="1658207244596" duration="14000" />
+      <workItem from="1658207396885" duration="5000" />
+      <workItem from="1658207574292" duration="1000" />
+      <workItem from="1658207674147" duration="54072000" />
+      <workItem from="1658414853661" duration="39057000" />
+      <workItem from="1658670618293" duration="834000" />
+      <workItem from="1658696090929" duration="4295000" />
+      <workItem from="1658726019078" duration="7042000" />
+      <workItem from="1658748963605" duration="4848000" />
+      <workItem from="1658758392578" duration="23599000" />
+      <workItem from="1658929601639" duration="12489000" />
+      <workItem from="1659275222653" duration="25406000" />
+      <workItem from="1659379224040" duration="9293000" />
+      <workItem from="1659417529529" duration="20695000" />
+      <workItem from="1659553438271" duration="40261000" />
+      <workItem from="1659690218884" duration="13991000" />
+      <workItem from="1659882176881" duration="5958000" />
+      <workItem from="1659940549837" duration="13169000" />
+      <workItem from="1660178112571" duration="6537000" />
+      <workItem from="1660279448143" duration="12756000" />
+      <workItem from="1660479995552" duration="11492000" />
+      <workItem from="1660617325503" duration="2414000" />
+      <workItem from="1660699919684" duration="4454000" />
+      <workItem from="1660760658952" duration="2000" />
+      <workItem from="1661213775665" duration="17225000" />
+      <workItem from="1661736796486" duration="11992000" />
+      <workItem from="1662020128790" duration="5035000" />
+      <workItem from="1662355759255" duration="2696000" />
+      <workItem from="1662455943479" duration="6078000" />
+      <workItem from="1662527598260" duration="1489000" />
+      <workItem from="1662541489371" duration="5688000" />
+      <workItem from="1662548197565" duration="2388000" />
+      <workItem from="1662609790392" duration="3000" />
+      <workItem from="1662704684783" duration="4052000" />
+      <workItem from="1662810958196" duration="3643000" />
+      <workItem from="1662890505332" duration="497000" />
+      <workItem from="1663078374841" duration="4519000" />
+      <workItem from="1663147804828" duration="15000" />
+      <workItem from="1663147912810" duration="2000" />
+      <workItem from="1663151604490" duration="631000" />
+      <workItem from="1663235779497" duration="18936000" />
+      <workItem from="1663594070228" duration="24108000" />
+      <workItem from="1664279036410" duration="4265000" />
+      <workItem from="1664432760614" duration="1000" />
+      <workItem from="1664627474695" duration="3866000" />
+      <workItem from="1664881467116" duration="7016000" />
+      <workItem from="1664950207747" duration="9283000" />
+      <workItem from="1665056169246" duration="6167000" />
+      <workItem from="1665064860139" duration="2179000" />
+      <workItem from="1665133571475" duration="1464000" />
+      <workItem from="1665419405085" duration="7333000" />
+      <workItem from="1665547960553" duration="3425000" />
+      <workItem from="1665753553281" duration="353000" />
+      <workItem from="1666182910329" duration="40726000" />
+      <workItem from="1666550232322" duration="1927000" />
+      <workItem from="1666854304220" duration="6237000" />
+      <workItem from="1667291657677" duration="6689000" />
+      <workItem from="1667299407929" duration="1440000" />
+      <workItem from="1667307660163" duration="52000" />
+      <workItem from="1667378295130" duration="6023000" />
+      <workItem from="1667477629959" duration="2944000" />
+      <workItem from="1667932786315" duration="1112000" />
+      <workItem from="1668083394628" duration="2642000" />
+      <workItem from="1668420418521" duration="14615000" />
+      <workItem from="1668581479965" duration="2216000" />
+      <workItem from="1668673959781" duration="5780000" />
+      <workItem from="1669020066750" duration="4611000" />
+      <workItem from="1669116763974" duration="8000" />
+      <workItem from="1669379991271" duration="3420000" />
+      <workItem from="1669782487949" duration="749000" />
+      <workItem from="1670433956312" duration="1789000" />
+      <workItem from="1670511308595" duration="3055000" />
+      <workItem from="1671458729262" duration="2290000" />
+      <workItem from="1672912445186" duration="447000" />
+      <workItem from="1677176460208" duration="2197000" />
+      <workItem from="1679478170573" duration="743000" />
+      <workItem from="1681052847001" duration="8000" />
+      <workItem from="1683191491681" duration="347000" />
+      <workItem from="1683191844974" duration="9843000" />
+      <workItem from="1683216312023" duration="285000" />
+      <workItem from="1683216610053" duration="13916000" />
+      <workItem from="1685202555229" duration="13297000" />
+      <workItem from="1685856409273" duration="1805000" />
+      <workItem from="1688025099030" duration="11505000" />
+      <workItem from="1688036631848" duration="5623000" />
+    </task>
+    <task id="LOCAL-00001" summary="2022.05.16-BOJ">
+      <created>1652668810083</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652668810083</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2023.02.24-파일 이동">
+      <created>1677176657337</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677176657337</updated>
+    </task>
+    <task id="LOCAL-00003" summary="6087-레이저 통신">
+      <created>1688054402226</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688054402226</updated>
+    </task>
+    <task id="LOCAL-00004" summary="6087 - 레이저 통신">
+      <created>1688054489091</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688054489091</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2022.05.16-BOJ" />
+    <MESSAGE value="2023.02.24-파일 이동" />
+    <MESSAGE value="6087-레이저 통신" />
+    <MESSAGE value="6087 - 레이저 통신" />
+    <option name="LAST_COMMIT_MESSAGE" value="6087 - 레이저 통신" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/백준 문제 풀이/2644_촌수계산(2).cpp</url>
+          <line>48</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/백준 문제 풀이/10026_적록색약.cpp</url>
+          <line>14</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/백준 문제 풀이/10026_적록색약.cpp</url>
+          <line>15</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/백준 문제 풀이/10026_적록색약.cpp</url>
+          <line>16</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/백준 문제 풀이/10026_적록색약.cpp</url>
+          <line>19</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/백준 문제 풀이/10026_적록색약.cpp</url>
+          <line>18</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/백준 문제 풀이/10026_적록색약.cpp</url>
+          <line>20</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/백준 문제 풀이/10026_적록색약.cpp</url>
+          <line>22</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/백준 문제 풀이/10026_적록색약.cpp</url>
+          <line>23</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/백준 문제 풀이/10026_적록색약.cpp</url>
+          <line>24</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/백준 문제 풀이/10026_적록색약.cpp</url>
+          <line>21</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/백준 문제 풀이/10026_적록색약.cpp</url>
+          <line>25</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/백준 문제 풀이/10026_적록색약.cpp</url>
+          <line>26</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/백준 문제 풀이/10026_적록색약.cpp</url>
+          <line>27</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/백준 문제 풀이/10026_적록색약.cpp</url>
+          <line>29</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/백준 문제 풀이/10026_적록색약.cpp</url>
+          <line>30</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/백준 문제 풀이/10026_적록색약.cpp</url>
+          <line>31</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/백준 문제 풀이/10026_적록색약.cpp</url>
+          <line>33</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/백준 문제 풀이/10026_적록색약.cpp</url>
+          <line>28</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/16936_나3곱2.cpp</url>
+          <line>29</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/2234_성곽.cpp</url>
+          <line>73</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/2234_성곽.cpp</url>
+          <line>80</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/14716_현수막.cpp</url>
+          <line>48</line>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/13398_연속합2.cpp</url>
+          <line>31</line>
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/tmp/1425_원숭이 땅을 옮기다.cpp</url>
+          <line>92</line>
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/1238_파티.cpp</url>
+          <line>34</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/11909_배열탈출.cpp</url>
+          <line>43</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/1043_거짓말.cpp</url>
+          <line>62</line>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/14676_영우는 사기꾼?.cpp</url>
+          <line>19</line>
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/1967_트리의 지름(2).cpp</url>
+          <line>38</line>
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/16946_벽 부수고 이동하기 4.cpp</url>
+          <line>67</line>
+          <option name="timeStamp" value="314" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/1445_일요일 아침의 데이트.cpp</url>
+          <line>65</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/16964_DFS 스폐셜 저지.cpp</url>
+          <line>17</line>
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/4195_친구 네트워크.cpp</url>
+          <line>38</line>
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/4195_친구 네트워크.cpp</url>
+          <line>32</line>
+          <option name="timeStamp" value="339" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/10217_KCM Travel.cpp</url>
+          <line>43</line>
+          <option name="timeStamp" value="340" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/9344_도로.cpp</url>
+          <line>39</line>
+          <option name="timeStamp" value="341" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/14950_정복자.cpp</url>
+          <line>43</line>
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/2638_치즈.cpp</url>
+          <line>78</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/17780_새로운 게임.cpp</url>
+          <line>37</line>
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/15720_카우버거.cpp</url>
+          <line>48</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/15573_채굴.cpp</url>
+          <line>86</line>
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/15573_채굴.cpp</url>
+          <line>18</line>
+          <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/20160_야쿠르트 아줌마 야쿠르트 주세요.cpp</url>
+          <line>20</line>
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/2239_스도쿠.cpp</url>
+          <line>34</line>
+          <option name="timeStamp" value="359" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/2239_스도쿠.cpp</url>
+          <line>88</line>
+          <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/2239_스도쿠.cpp</url>
+          <line>87</line>
+          <option name="timeStamp" value="362" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/9663_N-Queen.cpp</url>
+          <line>83</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/9663_N-Queen.cpp</url>
+          <line>39</line>
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/16927_배열 돌리기 2.cpp</url>
+          <line>83</line>
+          <option name="timeStamp" value="384" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022-2 객체2 스터디/W2.cpp</url>
+          <line>55</line>
+          <option name="timeStamp" value="389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022 땅울림 썸머코딩 알고리즘 심화반/3980_선발 명단.cpp</url>
+          <line>56</line>
+          <option name="timeStamp" value="391" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022-2 학생회 알고리즘 스터디/7576_토마토.cpp</url>
+          <line>70</line>
+          <option name="timeStamp" value="393" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022-2 학생회 알고리즘 스터디/7576_토마토.cpp</url>
+          <line>37</line>
+          <option name="timeStamp" value="397" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022-2 학생회 알고리즘 스터디/7576_토마토.cpp</url>
+          <line>17</line>
+          <option name="timeStamp" value="398" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022-2 학생회 알고리즘 스터디/1780_종이의 개수.cpp</url>
+          <line>48</line>
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022-2 1일1백준 스터디/24524_아름다운 문자열.cpp</url>
+          <line>14</line>
+          <option name="timeStamp" value="400" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022-2 1일1백준 스터디/24524_아름다운 문자열.cpp</url>
+          <line>18</line>
+          <option name="timeStamp" value="401" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022-2 1일1백준 스터디/4889_안정적인 문자열.cpp</url>
+          <line>21</line>
+          <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022-2 1일1백준 스터디/20040_사이클 게임.cpp</url>
+          <line>30</line>
+          <option name="timeStamp" value="407" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022-2 1일1백준 스터디/17396_백도어.cpp</url>
+          <line>37</line>
+          <option name="timeStamp" value="408" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2022-2 1일1백준 스터디/17396_백도어.cpp</url>
+          <line>57</line>
+          <option name="timeStamp" value="409" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/14기 소마 대비/14584_암호 해독.cpp</url>
+          <line>17</line>
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="map" language="ObjectiveC" />
+        <watch expression="pq" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
