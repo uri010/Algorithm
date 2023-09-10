@@ -1,6 +1,8 @@
+package programmers;
+
 import java.util.*;
 
-class Solution {
+public class BookHotel {
 
     public int solution(String[][] book_time) {
         int answer = 1;

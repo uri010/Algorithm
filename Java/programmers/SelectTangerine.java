@@ -1,7 +1,9 @@
+package programmers;
+
 import java.util.Arrays;
 import java.util.Collections;
 
-class Solution {
+public class SelectTangerine {
 
     public int solution(int k, int[] tangerine) {
         int answer = 0;
