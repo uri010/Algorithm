@@ -52,7 +52,7 @@ int main() {
         if (arr[plan] != groupNum) {
             cout << "NO";
             return 0;
-        }자
+        }
     }
     cout << "YES";
     return 0;
