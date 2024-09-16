@@ -10,7 +10,6 @@ using namespace std;
 int n, m;
 int board[101][101];
 bool visited[101][101];
-int minCnt;
 
 int dx[4] = {1, -1, 0, 0};
 int dy[4] = {0, 0, 1, -1};
@@ -30,7 +29,7 @@ int main() {
     }
 
     queue<pair<int, pair<int, int> > > q;
-    q.push(make_pair(1, make_pair(1, 1)));
+    q.push({1, {1, 1}});
     visited[1][1] = true;
 
     while (!q.empty()) {
@@ -48,7 +47,7 @@ int main() {
             if (nx <= 0 || nx > n || ny <= 0 || ny > m) continue;
             if (visited[nx][ny] || board[nx][ny] != 1) continue;
             visited[nx][ny] = true;
-            q.push(make_pair(cnt + 1, make_pair(nx, ny)));
+            q.push({cnt+1, {nx, ny}});
         }
     }
 }
